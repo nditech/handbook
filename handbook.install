@@ -69,7 +69,7 @@ function handbook_install() {
   filter_format_save($full_html_format);
 
   // Enable some handbook blocks.
-  $default_theme = variable_get('theme_default', 'handbook_theme');
+  $default_theme = 'handbook';
   $admin_theme = 'seven';
   $blocks = array(
     array(
@@ -429,4 +429,5 @@ function handbook_install() {
     ->execute();
   variable_set('admin_theme', 'seven');
   variable_set('node_admin_theme', '1');
+  variable_set('theme_default', $default_theme);
 }
