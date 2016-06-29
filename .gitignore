@@ -2,3 +2,4 @@ behat_params.sh
 modules/*
 themes/*
 libraries/*
+*.swp
