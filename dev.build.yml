@@ -4,7 +4,7 @@ api: 2
 
 defaults:
   projects:
-    subdir: ../../../profiles/handbook/modules/contrib
+    subdir: contrib
 
 projects:
   drupal: { version: ~ }
