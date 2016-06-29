@@ -1,0 +1,15 @@
+---
+language: php
+
+dist: trusty
+
+sudo: false
+
+script:
+  # Boot strap Drumkit
+  - . d
+  # Install a Drupal site, download Behat, and run some tests.
+  - make drupal
+  - make behat
+  - make drupal-tests
+
