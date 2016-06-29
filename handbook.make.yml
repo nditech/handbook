@@ -1,8 +1,5 @@
 core: 7.x
 api: 2
-defaults:
-  projects:
-    subdir: contrib
 projects:
   handbook_theme:
     subdir: custom

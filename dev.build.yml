@@ -1,0 +1,14 @@
+---
+core: 7.x
+api: 2
+
+defaults:
+  projects:
+    subdir: ../../../profiles/handbook/modules/contrib
+
+projects:
+  drupal: { version: ~ }
+  features: { version: ~ }
+
+includes:
+  - 'handbook.make.yml'
