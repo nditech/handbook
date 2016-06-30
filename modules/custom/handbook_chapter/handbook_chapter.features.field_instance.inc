@@ -108,7 +108,7 @@ function handbook_chapter_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'picture',
+        'module' => 'image',
         'settings' => array(
           'colorbox_settings' => array(
             'colorbox_caption' => 'auto',
@@ -120,11 +120,12 @@ function handbook_chapter_field_default_field_instances() {
           ),
           'fallback_image_style' => 'desktop',
           'image_link' => '',
+          'image_style' => '',
           'lazyload' => 1,
           'lazyload_aspect_ratio' => 1,
           'picture_mapping' => 'manual_breakpoints',
         ),
-        'type' => 'picture',
+        'type' => 'image',
         'weight' => 0,
       ),
       'teaser' => array(

@@ -59,7 +59,7 @@ function handbook_paragraphs_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'picture',
+        'module' => 'image',
         'settings' => array(
           'colorbox_settings' => array(
             'colorbox_caption' => 'auto',
@@ -71,11 +71,12 @@ function handbook_paragraphs_field_default_field_instances() {
           ),
           'fallback_image_style' => 'desktop__original_image',
           'image_link' => '',
+          'image_style' => '',
           'lazyload' => 1,
           'lazyload_aspect_ratio' => 0,
           'picture_mapping' => 'manual_breakpoints_original_image',
         ),
-        'type' => 'picture',
+        'type' => 'image',
         'weight' => 1,
       ),
       'paragraphs_editor_preview' => array(
@@ -278,7 +279,7 @@ function handbook_paragraphs_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'picture',
+        'module' => 'image',
         'settings' => array(
           'colorbox_settings' => array(
             'colorbox_caption' => 'auto',
@@ -290,11 +291,12 @@ function handbook_paragraphs_field_default_field_instances() {
           ),
           'fallback_image_style' => 'desktop__original_image',
           'image_link' => '',
+          'image_style' => '',
           'lazyload' => 1,
           'lazyload_aspect_ratio' => 0,
           'picture_mapping' => 'manual_breakpoints_original_image',
         ),
-        'type' => 'picture',
+        'type' => 'image',
         'weight' => 0,
       ),
       'paragraphs_editor_preview' => array(
@@ -482,7 +484,7 @@ function handbook_paragraphs_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'picture',
+        'module' => 'image',
         'settings' => array(
           'colorbox_settings' => array(
             'colorbox_caption' => 'auto',
@@ -494,11 +496,12 @@ function handbook_paragraphs_field_default_field_instances() {
           ),
           'fallback_image_style' => 'desktop__original_image',
           'image_link' => '',
+          'image_style' => '',
           'lazyload' => 1,
           'lazyload_aspect_ratio' => 0,
           'picture_mapping' => 'manual_breakpoints_original_image',
         ),
-        'type' => 'picture',
+        'type' => 'image',
         'weight' => 0,
       ),
       'paragraphs_editor_preview' => array(

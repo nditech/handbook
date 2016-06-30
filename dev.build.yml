@@ -9,6 +9,7 @@ defaults:
 projects:
   drupal: { version: ~ }
   features: { version: ~ }
+  diff: { vesion: ~ }
 
 includes:
   - 'handbook.make.yml'

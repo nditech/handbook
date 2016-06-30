@@ -4,6 +4,7 @@ core = 7.x
 
 dependencies[] = handbook_paragraphs
 dependencies[] = handbook_chapter
+dependencies[] = handbook_page_layouts
 dependencies[] = block
 dependencies[] = color
 dependencies[] = comment
