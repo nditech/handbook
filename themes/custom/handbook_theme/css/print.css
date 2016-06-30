@@ -1,0 +1,213 @@
+@font-face {
+      font-family: 'Pragati Narrow';
+      src: url('../fonts/PragatiNarrow-Bold.ttf');
+      font-style: bold;
+      font-weight: 700;
+}
+@font-face {
+      font-family: 'Hind Siliguri';
+      src: url('../fonts/HindSiliguri-Regular.ttf');
+      font-style: normal;
+      font-weight: 400;
+}
+body.print-page {
+	font-family: 'Hind Siliguri';
+	font-size: 1.2em;
+	line-height: 1.3;
+	background: #fff;
+}
+.toc .view-content {
+	padding: 0 20px;
+}
+.toc .views-row {
+	margin-bottom: 1em;
+}
+.print-content a, .print-content a.active, .print-content li a.active {
+	color:#C3165E;
+}
+.print-content a:hover, .print-content a.active:hover, .print-content li a.active:hover {
+	color:#EC2479;
+}
+.print-content h1, .print-content h2, .print-content h3, .print-blocks .block-title,
+.print-blocks h3 {
+	font-family: 'Pragati Narrow';
+	line-height: 1.2;
+}
+div.print-logo {
+	padding: 10px;
+	text-align: center;
+	float: left;
+}
+#logo.print-logo {
+	display: inline;
+}
+.print-site_name {
+	padding: 10px;
+	font-size: 1px;
+	color: transparent;
+	min-height: 49px;
+	font-family: 'Pragati Narrow';
+}
+.print-site_name a {
+	font-size: 17px;
+	display: none;
+}
+.print-site_name .placeholder {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: normal;
+	display: block;
+	font-size: 25px;
+}
+.print-breadcrumb, .print-title, .print-site_name + p {
+	display: none;
+}
+.print-content .node-header, .print-blocks.toc .block-title {
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.print-content .node-resource .node-header {
+	padding: 0;
+	background: none;
+	text-align: left;
+}
+.print-content .node-resource .node-title {
+	font-size: 1.5em;
+}
+.print-content .button-style {
+	margin: 10px 0;
+}
+.print-content .node-header .node-title a,
+.print-content .node-header .node-title a:hover,
+.print-blocks.toc .block-title {
+	font-size: 26px;
+}
+.print-content .field-type-image figcaption, .print-content .flex-caption,
+.print-content .video-embed-description {
+	padding: 10px;
+	font-style: italic;
+}
+.print-content .field-type-image figcaption {
+	margin-top: -7px;
+}
+.print-content .block h2, .print-content h2, .print-blocks h2 {
+	text-transform: inherit;
+	font-size: 1.5em;
+}
+#block-block-3 {
+	display: none !important;
+}
+.print-content iframe.pdf, .print-content .flex-control-nav,
+.print-content .flex-direction-nav {
+	display: none;
+}
+.print-content .flexslider, .field-type-paragraphs .field-item:last-of-type,
+.print-content .views-row:last-of-type .article {
+	margin-bottom: 0;
+}
+.print-content .views-row:last-of-type .article {
+	padding-bottom: 20px;
+}
+.print-footer {
+	padding: 10px 0;
+}
+.print-footer #block-block-2 {
+	text-align: center;
+}
+.print-footer #block-block-2 .block-content p:first-of-type {
+	display: none;
+}
+.print-footer #block-block-2 .block-content p:last-of-type {
+	margin-bottom: 0;
+}
+.print-content .paragraphs-item-media-half-width,
+.paragraphs-item-resource {
+	width: 50%;
+	float: right;
+	margin: 0 0 10px 10px;
+}
+.print-content .resource-heading {
+        position: absolute;
+        top: -56px;
+        width: 100%;
+        left: -15px;
+}
+.print-content .paragraphs-item-resource {
+	padding-top: 2.5em;
+}
+.print-content .paragraphs-item-media-half-width-float-left {
+	width: 50%;
+	float: left;
+	margin: 20px 20px 20px 0;
+}
+.print-content .paragraphs-item-resource .field-name-field-image {
+	text-align: center;
+}
+.print-source_url {
+	padding: 10px;
+	text-align: center;
+	color: #fff; 
+}
+.print-content .flexslider .slides {
+	text-align: center;
+}
+.print-content .flexslider .slides > li {
+	float: none !important;
+	opacity: 1 !important;
+	margin: 0 10px 10px 0 !important;
+	display: inline-block !important;
+	width: 45% !important;
+}
+.print-blocks {
+	padding-bottom: 15px;
+	margin-bottom: 0;
+}
+.print-footer {
+	color: #fff;	
+}
+.print-footer .block {
+	margin-bottom: 0;
+}
+.print-footer .block-inner a {
+	color: #fff;
+}
+.print-content .entity-paragraphs-item {
+	page-break-inside: avoid !important;
+	margin: 0 0 1.5em 10px;
+}
+.print-content .paragraphs-item-text {
+	page-break-inside: auto !important;
+	margin: 0 0 1.5em 0;
+}
+.print-content .paragraphs-item-media-half-width-float-left {
+	margin: 0 10px 1.5em 0;
+}
+.print-content .field-name-field-video .embedded-video {
+	display: none;
+}
+.print-content .print-video-thumbnail {
+	display: block;
+	text-align: center;
+}
+.print-content .print-video-thumbnail a, .print-content .field-name-field-image a {
+	display: block;
+}
+.print-content .print-video-thumbnail a {
+	position: relative;
+	margin-bottom: -6px;
+}
+.print-content .print-video-thumbnail a:after {
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 40px solid #C3165E;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}

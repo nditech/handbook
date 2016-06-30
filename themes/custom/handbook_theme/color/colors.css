@@ -1,0 +1,99 @@
+/* Links */
+a,
+a.active,
+li a.active,
+.paragraphs-item-resource h2.node-title a,
+.print-content .node-resource .node-header a,
+.print-content .print-video-thumbnail a:after {
+  color: #e25400;
+}
+/* Link hovered */
+a:hover,
+a:focus,
+a.active:hover,
+a.active:focus,
+li a.active:hover,
+li a.active:focus,
+.paragraphs-item-resource h2.node-title a:hover,
+.print-content .node-resource .node-header a:hover {
+  color: #e25401;
+}
+.node h1.node-title a:hover,
+.node h2.node-title a:hover,
+.paragraphs-item-resource h2.node-title a:hover {
+  color: #e25401;
+}
+/* Slogan */
+#site-slogan {
+  color: #f0f0f0;
+}
+/* Menu bar */
+#page-title, #site-name a, ul.menu li a, .nolink, .print-site_name a, .print-site_name .placeholder,
+.print-content .node-header .node-title a, .print-content .node-header .node-title a:hover, .print-blocks.toc .block-title  {
+  color: #2e2e2d;
+}
+.nolink:after {
+	border-top-color: #2e2e2d;
+}
+#site-name a:hover,
+.nav .block-menu ul a:focus,
+.nav .block-menu ul a:hover,
+.nav .block-menu ul a:active,
+ul.menu li a:hover, .nolink:hover,
+.nolink.toggle.active-trail, ul.menu li a:hover, ul.menu li a:focus, ul.menu li a.active:focus,
+ul.menu  a.active, ul.menu li.menu-depth-1 > a.active  {
+  color: #e25402;
+}
+.nolink.toggle.active-trail:after, .nolink.toggle:after:hover {
+	border-top-color: #e25402;
+}
+/* Block title */
+.block h2,
+h2, .print-content .block h2, .print-content h2, .print-blocks h2 {
+  color: #779125;
+}
+/*Page title*/
+.region-highlighted, .print-content .node-header, .print-blocks.toc .block-title {
+	background: #771122;
+}
+#page-title {
+	color: #2e2e2d;
+}
+/*Footer*/
+#footer-wrapper, .print-footer {
+	background: #774422;
+}
+#footer-wrapper .block-content a, .print-footer .block-inner a {
+	color: #775533;
+}
+#footer-wrapper .block-content a:hover, .print-footer .block-inner a:hover {
+	color: #779922;
+}
+/*Buttons*/
+.field-type-text-long input[type='button'], .button-style, #mobile-menu-toggle a, .print-content .button-style {
+	background: #775500;
+	color: #772200;
+}
+.field-type-text-long input[type='button']:hover, .button-style:hover, #mobile-menu-toggle a:hover, .print-content .button-style:hover {
+	background: #770011;
+	color: #772200;
+}
+/*Blocks, panes, resources*/
+.panel-pane .block-content, .paragraphs-item-resource > .content,
+.image-field-caption, .not-front .video-embed-description, .not-front .flex-caption, .not-front .full-caption,
+.toc, .print-content .field-type-image figcaption, .print-content .flex-caption,
+.print-content .video-embed-description, .node-type-resource .node > .content {
+	background: #778800;
+}
+.panel-pane .pane-title, .paragraphs-item-resource:before,
+#block-block-3 .block-content a, .resource-heading {
+	background: #777711;	
+}
+/*Sidebar and branding*/
+.region-sidebar-first, #branding, div.print-logo, .print-site_name, .print-source_url {
+        background: #743711;
+}
+/*Callout text*/
+.field-name-field-callout-text {
+	border-left-color: #774422;
+}

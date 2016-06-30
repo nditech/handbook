@@ -1,5 +1,5 @@
 behat_params.sh
-modules/*
-themes/*
+modules/contrib/*
+themes/contrib/*
 libraries/*
 *.swp

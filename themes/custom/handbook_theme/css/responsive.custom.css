@@ -1,0 +1,41 @@
+.region-sidebar-first {
+        margin-left: 0;
+	margin-top: 0;
+}
+#site-name {
+	font-size: 1.75em;
+}
+
+h1#page-title {
+        font-size: 2em;
+        padding: 8px;
+        margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+	h1#page-title {
+        	padding: 20px 10px 0 10px;
+        	font-size: 2.5em;
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 480px) and (min-width: 321px) {
+	.one-sidebar .sidebar {
+		width: 250px;
+	}
+}
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+        .one-sidebar .sidebar {
+                width: 250px;
+        }
+}
+@media only screen and (min-width: 768px) {
+	#site-name {
+		font-size: 3.25em;
+	}
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+	.region-sidebar-first {
+		width: 25%;
+	}
+}
