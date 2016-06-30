@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Handbook: Paragraphs feature.
+ */
+
+include_once 'handbook_paragraphs.features.inc';

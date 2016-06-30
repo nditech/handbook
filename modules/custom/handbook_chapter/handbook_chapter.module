@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Handbook: Chapter feature.
+ */
+
+include_once 'handbook_chapter.features.inc';

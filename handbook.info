@@ -1,6 +1,9 @@
 name = Handbook
 description = Install a site for simple documentation.
 core = 7.x
+
+dependencies[] = handbook_paragraphs
+dependencies[] = handbook_chapter
 dependencies[] = block
 dependencies[] = color
 dependencies[] = comment
