@@ -14,6 +14,30 @@ default:
     Drupal\DrupalExtension:
       blackbox: ~
       api_driver: 'drupal'
+      region_map:
+        # Taken from themes/custom/handbook_theme/handbook.info
+        Header panel: '.region-header'
+        Sidebar first: '.region-sidebar-first'
+        Sidebar second: '.region-sidebar-second'
+        Highlighted: '.region-highlighted'
+        Main content: '.region-content'
+        Help: '.region-help'
+        Footer: '.region-footer'
+        Content bottom panel: '.region-content-aside'
+        Menu Bar: '.region-menu-bar'
+        Top panel top: '.region-three-33-top'
+        Top panel first: '.region-three-33-first'
+        Top panel second: '.region-three-33-second'
+        Top panel third: '.region-three-33-third'
+        Top panel bottom: '.region-three-33-bottom'
+        Features panel: '.region-secondary-content'
+        Bottom panel: '.region-tertiary-content'
+        Footer panel first: '.region-four-first'
+        Footer panel second: '.region-four-second'
+        Footer panel third: '.region-four-third'
+        Footer panel fourth: '.region-four-fourth'
+        Page top: '.region-page-top'
+        Page bottom: '.region-page-bottom'
   gherkin:
     filters:
       tags: ~@wip

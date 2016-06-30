@@ -10,6 +10,6 @@ Feature: Manage content using chapters
       And I visit "/node/add/chapter"
       And for "Title" I enter "Example Chapter"
       And I check the box "Provide a menu link"
+      And for "Menu link title" I enter "Example Chapter"
       And I press the "Save" button
-     Then I should see the text "Example Chapter"
-
+     Then I should see the link "Example Chapter" in the "Sidebar first" region
