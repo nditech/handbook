@@ -1,13 +1,6 @@
 core: 7.x
 api: 2
 projects:
-  handbook_theme:
-    subdir: custom
-    type: theme
-    download:
-      type: git
-      url: 'https://github.com/NDItech/handbook_theme.git'
-      branch: master
   views_bulk_operations:
     version: '3.3'
   admin_views:
