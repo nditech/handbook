@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Handbook: Theme Settings feature.
+ */
+
+include_once 'handbook_theme_settings.features.inc';

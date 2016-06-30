@@ -1,0 +1,12 @@
+name = Handbook: Theme Settings
+description = Enable our custom theme
+core = 7.x
+package = Handbook
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = admin_theme
+features[variable][] = node_admin_theme
+features[variable][] = theme_default
+project path = profiles/handbook/modules/custom
