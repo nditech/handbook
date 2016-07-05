@@ -13,7 +13,6 @@ default:
       selenium2: ~
     Drupal\DrupalExtension:
       blackbox: ~
-      api_driver: 'drupal'
       region_map:
         # Taken from themes/custom/handbook_theme/handbook.info
         Header panel: '.region-header'
