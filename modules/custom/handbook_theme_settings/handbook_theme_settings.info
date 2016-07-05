@@ -3,6 +3,7 @@ description = Enable our custom theme
 core = 7.x
 package = Handbook
 dependencies[] = breakpoints
+dependencies[] = color
 dependencies[] = ctools
 dependencies[] = strongarm
 features[breakpoint_group][] = handbook

@@ -1,7 +1,11 @@
 <?php
 
+/**
+ * Implements hook_install().
+ */
 function handbook_theme_settings_install() {
   theme_enable(array('handbook'));
   theme_disable(array('bartik'));
+  handbook_theme_settings_set_color();
 }
 

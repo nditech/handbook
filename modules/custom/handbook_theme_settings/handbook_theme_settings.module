@@ -5,3 +5,28 @@
  */
 
 include_once 'handbook_theme_settings.features.inc';
+
+/**
+ * Simulate saving the theme's settings form.
+ *
+ * This appears to be the only way to set a color scheme.
+ * @see https://www.drupal.org/node/1245148
+ */
+function handbook_theme_settings_set_color($theme = 'handbook', $scheme = 'handbook') {
+  $info = color_get_info($theme);
+
+  // Build fake form entries.
+  $form_state = array();
+  $form_state['values']['palette'] = $info['schemes'][$scheme]['colors'];
+  $form_state['values']['theme']   = $theme;
+  $form_state['values']['info']    = $info;
+  $form_state['values']['scheme']  = '';
+
+  $message = "Setting custom color scheme (:scheme) for :theme theme.";
+  $options = array(
+    ':scheme' => $scheme,
+    ':theme' => $theme,
+  );
+  function_exists('drush_log') ? drush_log(dt($message, $options), 'ok') : drupal_set_message(t($message, $options));
+  color_scheme_form_submit(null, $form_state);
+}
