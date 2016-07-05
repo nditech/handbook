@@ -3,6 +3,7 @@ api: 2
 projects:
   views_bulk_operations:
     version: '3.3'
+  admin_menu: { version: ~ }
   admin_views:
     version: '1.5'
   advagg:
