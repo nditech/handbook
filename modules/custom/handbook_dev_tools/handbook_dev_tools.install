@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_disable().
+ */
+function handbook_dev_tools_disable() {
+  // Get this module's dependencies.
+	$this_module = 'handbook_dev_tools';
+  $modules = system_rebuild_module_data();
+  $devel_modules = $modules[$this_module]->info['dependencies'];
+	// Disable devel modules. We let this fail if dependent modules exist.
+  $message = "Disabling the following developer modules: " . implode(', ', $devel_modules);
+  function_exists('drush_log') ? drush_log($message, 'status') : drupal_set_message($message);
+  module_disable($devel_modules, FALSE);
+}

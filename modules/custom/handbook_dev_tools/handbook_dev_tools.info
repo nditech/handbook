@@ -1,0 +1,10 @@
+name = Handbook: Dev Tools
+description = Developer tools (remeber to disable this when you're done!)
+core = 7.x
+package = Handbook
+dependencies[] = context_ui
+dependencies[] = field_ui
+dependencies[] = panels_ipe
+dependencies[] = views_ui
+features[features_api][] = api:2
+project path = profiles/handbook/modules/custom
